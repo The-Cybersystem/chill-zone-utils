@@ -1,4 +1,5 @@
 from sys import exit as sysexit
+
 from src.utils.config import ConfigManager, ConfigurationError
 from src.utils.error_handler import handle_exception
 from src.utils.logger import setup_async_logger, setup_sync_logger
